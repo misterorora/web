@@ -1,0 +1,7 @@
+body {
+    background-image: url('$lib/assets/background.svg');    /*background svg */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', sans-serif;                /*sets Trebuchet MS as Main font for whole project*/
+}
