@@ -1,4 +1,4 @@
-<!-- src/routes/[slug]/+page.svelte -->
+<!-- src/routes/announcements/[slug]/+page.svelte , displays loaded data out of page.js -->
 <script>
 	export let data;
 </script>

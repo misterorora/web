@@ -1,8 +1,11 @@
 ---
-title: Post One
-date: '2021-12-14'
+title: Wir haben eine Website!
+date: '01.01.2024'
 ---
 
-Hello, I am _Post One._
 
-**Nice to meet you!**
+# Willkommen auf der Website von Südstadtvolleyball!
+
+Wie ihr seht, ist noch nicht alles perfekt, aber irgendwann wird es das sein! 
+
+Euren Trainingsplan findet ihr auf dieser Website! Bitte macht jeden Tag die geplanten Übungen, damit wir beim Training so richtig durchstarten können!!

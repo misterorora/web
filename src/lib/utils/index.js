@@ -1,3 +1,5 @@
+//javascript file to load all announcements markdown files and extract metadata
+
 export const fetchMarkdownPosts = async () => {
 	const allPostFiles = import.meta.glob('/src/routes/announcements/*.md');
 	const iterablePostFiles = Object.entries(allPostFiles);

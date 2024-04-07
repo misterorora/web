@@ -1,3 +1,5 @@
+<!-- Contant Page, Forms Page for sending Mail via personel Emailclient  -->
+
 <script>
   let formData = {
     name: '',
@@ -7,13 +9,13 @@
 
   const handleSubmit = () => {
     const { name, email, message } = formData;
-    const mailtoLink = `mailto:cs.christian.steiner@gmail.com?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AReply to: ${encodeURIComponent(email)}`;
+    const mailtoLink = `mailto:s_steinerc22@stud.hwr-berlin.de?subject=Message from ${encodeURIComponent(name)}&body=${encodeURIComponent(message)}%0A%0AReply to: ${encodeURIComponent(email)}`; //call mailto function
     window.location.href = mailtoLink;
   };
 </script>
 
 <main>
-  <h1 class="head">Kontaktiere uns</h1>
+  <h1 class="head">Kontaktiere uns!</h1>
   <form class="form" on:submit|preventDefault={handleSubmit}>
     <label for="name">Name:</label><br>
     <input type="text" id="name" bind:value={formData.name}><br>

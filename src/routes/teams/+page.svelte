@@ -1,3 +1,7 @@
+<!-- Teams Page -->
+
+<script>
+</script>
 <main>
   <div class="text_block">
     <h1> Wer sind wir? </h1>
@@ -19,7 +23,7 @@
       <h5>Interesse geweckt?</h5>
       <a href="/contact" class="button">Mitglied werden!</a>
     </div>
-    <div class="spotify">
+    <div class="spotify">   <!-- spotify iframe, copied out of spotify -->
        <iframe style="border-radius:11px" src="https://open.spotify.com/embed/playlist/4e70rKjBB3L7Ca4m7rpkMs?utm_source=generator" width="450" height="200" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
        <h5> Hör hier die offizielle Team-Playlist! </h5>
     </div>

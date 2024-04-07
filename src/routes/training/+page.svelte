@@ -1,5 +1,6 @@
+<!-- training page --> 
 <main>
-    <div class="navbar">
+    <div class="navbar">    <!-- navbar for different weekdays -->
     <nav>
         <ul>
             <li><a href="/training/monday">Montag</a></li>
