@@ -1,4 +1,4 @@
-// src/routes/blog/+page.js
+// src/routes/announcements/+page.js
 export const load = async ({ fetch }) => {
 	const response = await fetch(`/api/posts`);
 	const posts = await response.json();

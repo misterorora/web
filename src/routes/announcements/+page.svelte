@@ -1,4 +1,4 @@
-<!-- src/routes/blog/+page.svelte -->
+<!-- src/routes/announcements/+page.svelte -->
 <script>
 	export let data;
 </script>
@@ -19,27 +19,36 @@
 </ul>
 
 <style>
-    /* Styles for the h1 element */
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
     h1 {
-        font-size: 24px;
+        font-size: 36px;
         color: #333;
         margin-bottom: 20px;
+        text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
     }
 
-    /* Styles for the list items */
     li {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
-
-    /* Styles for the links */
     a {
         text-decoration: none;
-        color: #007bff; /* blue color */
+        color: #007bff;
     }
-
-    /* Styles for the published date */
-    .published-date {
-        font-style: italic;
-        color: #888;
+    .date {
+        font-size: 14px;
+        color: #777;
     }
 </style>
